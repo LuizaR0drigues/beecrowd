@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int p,g,i,s;
+    
+    while(1)
+    {
+        scanf("%d %d",&g, &p);
+        if( p == 0 && g ==0)
+            break;
+       int vet[p], k[p+1];
+       for(i=0; i<p; i++)
+       {
+           scanf("%d%*c",&vet[i]);
+       }
+       scanf("%d",&s);
+        
+    }
+    return 0;
+}
